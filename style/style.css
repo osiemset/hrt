@@ -1,0 +1,58 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+  background-color: #000000;
+}
+
+.tittle{
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1150px;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    .container{
+        max-width: 1040px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .container{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width :480px){
+    .container{
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .container{
+        max-width: 310px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        max-width: 320px;
+    }
+}
+
